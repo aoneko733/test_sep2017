@@ -237,7 +237,7 @@ p.subTitle{font-size:30px; font-family: "YuMincho Regular","Yu Mincho Regular", 
 #slide-line {position:absolute; bottom:7.5px; height:2px; background-color:#000; -webkit-transition:all .3s ease; transition:all .3s ease; z-index:999;}
 
 /* ----- container ----- */
-#container {width:100%; padding-top:220px;}
+#container {width:100%; padding-top:230px;}
 
 /* ----- contents ----- */
 #contents {}
