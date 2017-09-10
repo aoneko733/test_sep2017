@@ -1,0 +1,5 @@
+order deny,allow
+deny from all
+
+php_value error_reporting 2047
+php_flag display_errors Off

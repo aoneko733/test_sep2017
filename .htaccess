@@ -1,0 +1,15 @@
+AuthUserFile    /export/cgi/com/m/d/stg.nakamichi-adm/.htpasswd
+AuthGroupFile   /dev/null
+AuthName        "Signon"
+AuthType        Basic
+<LIMIT GET POST>
+  require valid-user
+</LIMIT>
+<Files .htaccess>
+  order allow,deny
+  require valid-user
+</Files>
+<Files .htpasswd>
+  order allow,deny
+  require valid-user
+</Files>
