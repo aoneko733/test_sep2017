@@ -1,4 +1,4 @@
-005c23@charset "UTF-8";
+@charset "UTF-8";
 
 /* ===============================================
 Initializr Styles
@@ -602,11 +602,10 @@ body.column article{margin-top: 30px;}
 
 @media only print{
 #container{padding-top: 0;}
-#pageTop{opacity:0; !important;}
+#pageTop{opacity:0 !important;}
 #header{position:absolute; top:0; left:0;}
 #message #workExample,#profile{margin-top:30px;}
 }
 
 /* CSS End
 ------------------------------------------------------ */
-2
